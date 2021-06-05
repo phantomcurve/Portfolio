@@ -1,8 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-image: linear-gradient(lightcoral, thistle);
-  background-color:thistle;
+  background: radial-gradient(burlywood, thistle);
 }
 
 h1 {
@@ -21,23 +20,59 @@ h2 {
   color: rgb(86, 192, 187)
 }
 
+.body-main {
+ text-align: center;
+}
+
 .subheading {
   font-size: 12px;
   font-style: italic;
-  
 }
 
-img {
-  width: 400px;
-  height: auto;
-  padding: 20px
+.subheading-image {
+  width: 740px;
+  height: 640px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: lightgreen;
+  border-left: 2px dotted rgb(0, 0, 0);
+  border-right: 2px dotted rgb(0, 0, 0);
+  border-bottom: 2px dotted rgb(0, 0, 0);
+  border-top: 2px dotted rgb(0, 0, 0);
+  box-sizing: border-box;
 }
 
-.pyramid {
+.pyramid1 {
+  float: right;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top:  500px solid transparent;
+  border-bottom: 500px solid transparent;
+  border-right: 600px solid rgb(163, 139, 201); 
+}
+
+.pyramid2 {
+  float: left;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top:  500px solid transparent;
+  border-bottom: 500px solid transparent;
+  border-left: 600px solid rgb(96, 122, 207); 
+}
+
+.pyramid3 {
   margin: 0 auto;
   width: 0;
   height: 0;
   border-left:  500px solid transparent;
   border-right: 500px solid transparent;
-  border-bottom: 600px solid rgb(86, 192, 187);
+  border-bottom: 600px solid rgb(86, 192, 187);  
+}
+
+.footer {
+text-align: center;
+font-style: italic;
+font-size: 16px;
 }
