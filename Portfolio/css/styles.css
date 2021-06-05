@@ -1,18 +1,43 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-image: linear-gradient(lightcoral, thistle);
+  background-color:thistle;
 }
 
 h1 {
   font-style: italic;
   font-size: 60px;
+  margin: 50px 100px;
+  border: 2px dotted rgb(0, 0, 0);
+  padding: 4px;
+  box-sizing: border-box;
+  background-color:lightcoral
 }
 
 h2 {
-  font-size: 125%;
+  font-size: 40px;
+  text-shadow: 2px 2px #000000;
+  color: rgb(86, 192, 187)
 }
 
-div {
+.subheading {
   font-size: 12px;
   font-style: italic;
+  
+}
+
+img {
+  width: 400px;
+  height: auto;
+  padding: 20px
+}
+
+.pyramid {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left:  500px solid transparent;
+  border-right: 500px solid transparent;
+  border-bottom: 600px solid rgb(86, 192, 187);
 }
