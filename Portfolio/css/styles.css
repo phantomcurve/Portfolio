@@ -59,9 +59,9 @@ ol {
   margin: 0 auto;
   width: 0;
   height: 0;
-  border-top:  500px solid transparent;
-  border-bottom: 500px solid transparent;
-  border-right: 600px solid rgb(163, 139, 201); 
+  border-top:  400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-right: 500px dotted rgb(163, 139, 201); 
 }
 
 .pyramid2 {
@@ -69,9 +69,9 @@ ol {
   margin: 0 auto;
   width: 0;
   height: 0;
-  border-top:  500px solid transparent;
-  border-bottom: 500px solid transparent;
-  border-left: 600px solid rgb(96, 122, 207); 
+  border-top:  400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-left: 500px dotted rgb(96, 122, 207); 
 }
 
 .pyramid3 {
@@ -79,9 +79,9 @@ ol {
   margin: 0 auto;
   width: 0;
   height: 0;
-  border-left:  500px solid transparent;
-  border-right: 500px solid transparent;
-  border-top: 600px solid rgb(86, 192, 187);  
+  border-left:  400px solid transparent;
+  border-right: 400px solid transparent;
+  border-top: 500px solid rgb(86, 192, 187);  
 }
 
 .column1 {
@@ -90,8 +90,8 @@ ol {
   float: left;
   background-color:rgb(163, 139, 201);
   margin: 25px;
-  padding: 40px;
-  border:  2px dotted rgb(0, 0, 0);
+  padding: 15px;
+  border:  2px dotted black;
   box-sizing: border-box;
 }
 
@@ -101,8 +101,8 @@ ol {
   float: left;
   background-color:rgb(86, 192, 187);
   margin: 25px;
-  padding: 40px;
-  border:  2px dotted rgb(0, 0, 0);
+  padding: 15px;
+  border:  2px dotted black;
   box-sizing: border-box;
 }
 
@@ -112,8 +112,8 @@ ol {
   float: left;
   background-color:rgb(96, 122, 207);
   margin: 25px;
-  padding: 40px;
-  border:  2px dotted rgb(0, 0, 0);
+  padding: 15px;
+  border:  2px dotted black;
   box-sizing: border-box;
 }
 
