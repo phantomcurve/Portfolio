@@ -31,6 +31,10 @@ This is my first major coding porject at Epicodus and will likely serve to embar
 * Select "open with" and choose your browser
 * Delight in your capability and enjoy the page before your eyes
 
+## Live view of this website as written
+
+https://phantomcurve.github.io/portfolio/
+
 ## Licensing
 
 * MIT License 
