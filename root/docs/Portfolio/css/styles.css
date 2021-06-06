@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: radial-gradient(burlywood, thistle);
+}
+
+h1 {
+  font-style: italic;
+  font-size: 60px;
+  margin: 50px 100px;
+  border: 2px dotted rgb(0, 0, 0);
+  padding: 4px;
+  box-sizing: border-box;
+  background-color:lightcoral
+}
+
+h2 {
+  font-size: 40px;
+  text-shadow: 2px 2px #000000;
+  color: rgb(86, 192, 187)
+}
+
+p {
+  margin: 20px 100px;
+}
+
+.highlight {
+  color:darkred;
+  text-decoration: underline;
+}
+
+ul {
+  color: black;
+  list-style-position: inside;
+}
+
+ol {
+  color: black;
+  list-style-position:inside;
+}
+
+.subheading {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.subheading-image {
+  width: 740px;
+  height: 640px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: lightgreen;
+  border:  2px dotted rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.pyramid1 {
+  float: right;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top:  400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-right: 500px dotted rgb(163, 139, 201); 
+}
+
+.pyramid2 {
+  float: left;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top:  400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-left: 500px dotted rgb(96, 122, 207); 
+}
+
+.pyramid3 {
+  float: bottom;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left:  400px solid transparent;
+  border-right: 400px solid transparent;
+  border-top: 500px solid rgb(86, 192, 187);  
+}
+
+.column1 {
+  width: 350px;
+  height: auto;
+  float: left;
+  background-color:rgb(163, 139, 201);
+  margin: 25px;
+  padding: 15px;
+  border:  2px dotted black;
+  box-sizing: border-box;
+}
+
+.column2 {
+  width: 350px;
+  height: auto;
+  float: left;
+  background-color:rgb(86, 192, 187);
+  margin: 25px;
+  padding: 15px;
+  border:  2px dotted black;
+  box-sizing: border-box;
+}
+
+.column3 {
+  width: 350px;
+  height: auto;
+  float: left;
+  background-color:rgb(96, 122, 207);
+  margin: 25px;
+  padding: 15px;
+  border:  2px dotted black;
+  box-sizing: border-box;
+}
+
+.footer {
+text-align: center;
+font-style: italic;
+font-size: 16px;
+}
