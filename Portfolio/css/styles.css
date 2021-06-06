@@ -55,7 +55,6 @@ ol {
 }
 
 .pyramid1 {
-  color: #000000;
   float: right;
   margin: 0 auto;
   width: 0;
@@ -76,12 +75,46 @@ ol {
 }
 
 .pyramid3 {
+  float: bottom;
   margin: 0 auto;
   width: 0;
   height: 0;
   border-left:  500px solid transparent;
   border-right: 500px solid transparent;
-  border-bottom: 600px solid rgb(86, 192, 187);  
+  border-top: 600px solid rgb(86, 192, 187);  
+}
+
+.column1 {
+  width: 350px;
+  height: auto;
+  float: left;
+  background-color:rgb(163, 139, 201);
+  margin: 25px;
+  padding: 40px;
+  border:  2px dotted rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.column2 {
+  width: 350px;
+  height: auto;
+  float: left;
+  background-color:rgb(86, 192, 187);
+  margin: 25px;
+  padding: 40px;
+  border:  2px dotted rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.column3 {
+  width: 350px;
+  height: auto;
+  float: left;
+  background-color:rgb(96, 122, 207);
+  margin: 25px;
+  padding: 40px;
+  border:  2px dotted rgb(0, 0, 0);
+  box-sizing: border-box;
 }
 
 .footer {
