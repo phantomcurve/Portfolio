@@ -20,8 +20,23 @@ h2 {
   color: rgb(86, 192, 187)
 }
 
-.body-main {
- text-align: center;
+p {
+  margin: 20px 100px;
+}
+
+.highlight {
+  color:darkred;
+  text-decoration: underline;
+}
+
+ul {
+  color: black;
+  list-style-position: inside;
+}
+
+ol {
+  color: black;
+  list-style-position:inside;
 }
 
 .subheading {
@@ -35,14 +50,12 @@ h2 {
   margin: 50px auto;
   padding: 50px;
   background-color: lightgreen;
-  border-left: 2px dotted rgb(0, 0, 0);
-  border-right: 2px dotted rgb(0, 0, 0);
-  border-bottom: 2px dotted rgb(0, 0, 0);
-  border-top: 2px dotted rgb(0, 0, 0);
+  border:  2px dotted rgb(0, 0, 0);
   box-sizing: border-box;
 }
 
 .pyramid1 {
+  color: #000000;
   float: right;
   margin: 0 auto;
   width: 0;
